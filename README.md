@@ -18,7 +18,7 @@ This project develops a SimpleRNN model to forecast the hourly closing prices of
 3. API key from TraderMade is required to fetch live data.
 
 ## Results
-- Best RMSE achieved: **0.0008243834046896665**
+- Best MSE achieved: **0.0008243834046896665**
 - Best architecture: Single-layer SimpleRNN with 16 neurons.
 - Observations: The model effectively tracks the immediate past but struggles to detect trend reversals. Multi-step predictions tend to converge toward the initial forecast, capturing general trend direction but not identifying reversals.
 
